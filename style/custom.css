@@ -1,7 +1,4 @@
-*{
-    overflow-x: hidden;
-    max-width: 100vw;
-}
+
 .bg-primaryLight{
     background: #ffffff;    
 }
@@ -37,7 +34,7 @@
 }
 
 .big-text {
-    font-size: 18vw;
+    font-size: 17vw;
     color: #9b9b9d57;
     user-select: none;
 }
