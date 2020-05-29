@@ -15,22 +15,22 @@
 <body>
 
   <!-- Header -->
-  <header class="text-gray-700 body-font bg-primaryLight boxShadow">
+  <header class="text-gray-700 body-font bg-primaryLight boxShadow fixed w-full z-50">
     <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
       <nav class="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
-        <a class="mr-5 hover:text-gray-900">First Link</a>
-        <a class="mr-5 hover:text-gray-900">Second Link</a>
-        <a class="mr-5 hover:text-gray-900">Third Link</a>
-        <a class="hover:text-gray-900">Fourth Link</a>
+        <a class="mr-5 hover:text-gray-900 pointer">First Link</a>
+        <a class="mr-5 hover:text-gray-900 pointer">Second Link</a>
+        <a class="mr-5 hover:text-gray-900 pointer">Third Link</a>
+        <a class="hover:text-gray-900 pointer">Fourth Link</a>
       </nav>
       <a
-        class="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0">
+        class="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0 pointer">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round"
           stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-teal-500 rounded-full"
           viewBox="0 0 24 24">
           <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
         </svg>
-        <span class="ml-3 text-xl">Oraclle ServiceK</span>
+        <span class="ml-3 text-xl">Oraccle Service<span style='color:blue'>K</span></span>
       </a>
       <div class="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">
         <button
@@ -45,8 +45,15 @@
   </header>
 
   <!-- HERO -->
-  <section class="text-gray-700 body-font">
-    <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+  <section class="text-gray-700 body-font ">
+    <div class="posAbs w-full">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,96L480,32L960,320L1440,192L1440,0L960,0L480,0L0,0Z"></path></svg>
+    </div>
+    <div class="posAbs w-full">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="0.2" d="M0,64L480,224L960,160L1440,288L1440,0L960,0L480,0L0,0Z"></path></svg>
+  </div>
+    <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center posRel">
+      
       <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
         <img class="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600">
       </div>
@@ -54,30 +61,26 @@
         class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
         <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">E impermutabile alla alcun
           riguardando.
-          <br class="hidden lg:inline-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, tempore?
+          <br class="hidden lg:inline-block"> <span class="highlight">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, tempore?</span>
         </h1>
         <p class="mb-8 leading-relaxed">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum, delectus. Tenetur
           fuga eveniet dolor ipsa nostrum maxime porro culpa perspiciatis.</p>
         <div class="flex justify-center">
           <button
-            class="inline-flex text-white bg-teal-500 border-0 py-2 px-6 focus:outline-none hover:bg-teal-600 rounded text-lg">Button</button>
-          <button
-            class="ml-4 inline-flex text-gray-700 bg-gray-200 border-0 py-2 px-6 focus:outline-none hover:bg-gray-300 rounded text-lg">Button</button>
-        </div>
+            class="inline-flex text-white bg-teal-500 border-0 py-2 px-6 focus:outline-none hover:bg-teal-600 rounded text-lg">Contact Us !!!</button>
       </div>
     </div>
   </section>
 
   <section class="text-gray-700 body-font bg-secondaryLight posRel">
-    <h1 class="subheading">Lorem ipsum dolor sit.
+    <h1 class="subheading">We do insurance !
     </h1>
     <div class='big-text posAbs'>
       <pre>Oraclle 
-  ServiceK</pre>
+  Service<span style="color:#0000ff30">K</span></pre>
     </div>
-    <div class="container px-5 py-24 mx-auto">
+    <div class="container px-5 py-24 mx-auto z-index1">
       <div class="text-center mb-20">
-        
         <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">Lorem ipsum dolor sit amet consectetur
           adipisicing elit. Rerum, voluptates? Quisquam minima iste facere sint officiis nesciunt et iure architecto
           unde veritatis. Tenetur ducimus veniam, libero alias excepturi voluptatum ipsam.</p>
