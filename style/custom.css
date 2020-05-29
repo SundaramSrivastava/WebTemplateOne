@@ -1,5 +1,6 @@
 *{
-    overflow-y: hidden;
+    overflow-x: hidden;
+    max-width: 100vw;
 }
 .bg-primaryLight{
     background: #ffffff;    
