@@ -1,3 +1,6 @@
+*{
+    overflow-y: hidden;
+}
 .bg-primaryLight{
     background: #ffffff;    
 }
