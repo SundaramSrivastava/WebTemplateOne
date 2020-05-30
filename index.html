@@ -15,7 +15,7 @@
 <body>
 
   <!-- Header -->
-  <header class="text-gray-700 body-font bg-primaryLight boxShadow fixed w-full z-50">
+  <header class="text-gray-700 top-0 body-font bg-primaryLight border-b-1 fixed w-full z-50">
     <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
       <nav class="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
         <a class="mr-5 hover:text-gray-900 pointer">First Link</a>
@@ -45,16 +45,16 @@
   </header>
 
   <!-- HERO -->
-  <section class="text-gray-700 body-font z-10">
-    <div class="posAbs w-full">
+  <section class="text-gray-700 body-font z-10 height-100">
+    <div class="posAbs w-full h-screen">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,96L480,32L960,320L1440,192L1440,0L960,0L480,0L0,0Z"></path></svg>
     </div>
-    <div class="posAbs w-full">
+    <div class="posAbs w-full h-screen">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="0.2" d="M0,64L480,224L960,160L1440,288L1440,0L960,0L480,0L0,0Z"></path></svg>
   </div>
-    <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center posRel z-10">
+    <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center posRel z-10 ">
       
-      <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+      <div class="my-10 lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
         <img class="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600">
       </div>
       <div
@@ -78,14 +78,14 @@
   </div>
   
 
-  <section class="text-gray-700 body-font bg-secondaryLight posRel">
+  <section class="text-gray-700 py-10 body-font bg-secondaryLight posRel">
     <h1 class="subheading">We do insurance <em>!</em>
     </h1>
     <div class='big-text posAbs'>
       <pre>Oraclle 
   Service<span style="color:#0000ff30">K</span></pre>
     </div>
-    <div class="container px-5 py-24 mx-auto z-index1">
+    <div class="container px-5 py-5 mx-auto z-index1 posRel z-10">
       <div class="text-center mb-20">
         <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">Lorem ipsum dolor sit amet consectetur
           adipisicing elit. Rerum, voluptates? Quisquam minima iste facere sint officiis nesciunt et iure architecto
@@ -93,9 +93,9 @@
       </div>
       <div class="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
         <div class="p-2 sm:w-1/2 w-full">
-          <div class="bg-gray-200 rounded flex p-4 h-full items-center">
+          <div class="background-light rounded flex p-4 h-full items-center">
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
-              class="text-teal-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+              class="text-teal-500 background-light w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
               <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
               <path d="M22 4L12 14.01l-3-3"></path>
             </svg>
@@ -103,9 +103,9 @@
           </div>
         </div>
         <div class="p-2 sm:w-1/2 w-full">
-          <div class="bg-gray-200 rounded flex p-4 h-full items-center">
+          <div class="background-light rounded flex p-4 h-full items-center">
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
-              class="text-teal-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+              class="text-teal-500 w-6 h-6 flex-shrink-0 mr-4 background-light" viewBox="0 0 24 24">
               <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
               <path d="M22 4L12 14.01l-3-3"></path>
             </svg>
@@ -113,9 +113,9 @@
           </div>
         </div>
         <div class="p-2 sm:w-1/2 w-full">
-          <div class="bg-gray-200 rounded flex p-4 h-full items-center">
+          <div class="background-light rounded flex p-4 h-full items-center">
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
-              class="text-teal-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+              class="text-teal-500 w-6 h-6 flex-shrink-0 mr-4 background-light" viewBox="0 0 24 24">
               <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
               <path d="M22 4L12 14.01l-3-3"></path>
             </svg>
@@ -123,9 +123,9 @@
           </div>
         </div>
         <div class="p-2 sm:w-1/2 w-full">
-          <div class="bg-gray-200 rounded flex p-4 h-full items-center">
+          <div class="rounded flex p-4 h-full items-center background-light">
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
-              class="text-teal-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+              class="text-teal-500 w-6 h-6 flex-shrink-0 mr-4 " viewBox="0 0 24 24">
               <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
               <path d="M22 4L12 14.01l-3-3"></path>
             </svg>
@@ -133,7 +133,7 @@
           </div>
         </div>
         <div class="p-2 sm:w-1/2 w-full">
-          <div class="bg-gray-200 rounded flex p-4 h-full items-center">
+          <div class="rounded flex p-4 h-full items-center background-light">
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
               class="text-teal-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
               <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
@@ -144,9 +144,9 @@
           </div>
         </div>
         <div class="p-2 sm:w-1/2 w-full">
-          <div class="bg-gray-200 rounded flex p-4 h-full items-center">
+          <div class="rounded flex p-4 h-full items-center background-light">
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
-              class="text-teal-500 w-6 h-6 flex-shrink-0 mr-4" viewBox="0 0 24 24">
+              class="text-teal-500 w-6 h-6 flex-shrink-0 mr-4 " viewBox="0 0 24 24">
               <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
               <path d="M22 4L12 14.01l-3-3"></path>
             </svg>
@@ -159,7 +159,7 @@
     </div>
   </section>
 <!-- Steps -->
-  <section class="text-gray-700 body-font">
+  <section class="text-gray-700 py-10 body-font posRel ">
     <h1 class="subheading">Steps</h1>
     <div class="container px-5 py-24 mx-auto flex flex-wrap">
       <div class="flex flex-wrap w-full">
@@ -240,7 +240,7 @@
     </div>
   </section>
 <!-- Pricing -->
-  <section class="text-gray-700 body-font overflow-hidden bg-secondaryLight">
+  <section class="text-gray-700 py-10 body-font bg-secondaryLight posRel ">
     <h1 class="subheading">
       Pricing
     </h1>
@@ -492,9 +492,9 @@
     </div>
   </section>
 <!-- Teams -->
-  <section class="text-gray-700 body-font">~
+  <section class="text-gray-700 py-10 body-font  posRel">~
     <h1 class="subheading">OUR TEAM</h1>
-    <div class="container px-5 py-24 mx-auto">
+    <div class="container px-5 py-5 mx-auto">
       <div class="flex flex-col text-center w-full mb-20">
         <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit quidem corporis aspernatur, suscipit quisquam saepe!</p>
       </div>
