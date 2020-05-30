@@ -1,6 +1,9 @@
 
+.bg-fullPage{
+    background: #000000
+}
 .bg-primaryLight{
-    background: #ccccccb8;    
+    background: rgba(18, 18, 18, 0.3);    
 }
 
 .background-light{
@@ -75,11 +78,16 @@ button{
 }
 
 .highlight {
-    background-color: #fff2ac;
-    background-image: linear-gradient(to right, #ffe359 0%, #fff2ac 100%);
+    background-color: #06a7b1;
+    /* background-image: linear-gradient(to right, #06a7b1 0%, #262a3a 100%); */
 }
 
 
+@media (prefers-color-scheme: dark){
+    .bg-fullPage{
+        background-color: red;
+    }
+}
 
 @media only screen and (max-width: 600px) {
     body{
