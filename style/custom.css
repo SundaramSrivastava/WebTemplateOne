@@ -1,6 +1,6 @@
 
 .bg-primaryLight{
-    /* background: #ccccccb8;     */
+    background: #ccccccb8;    
 }
 
 .background-light{
@@ -47,6 +47,7 @@ button{
 
 .bg-secondaryLight{
     /* background: #f4f3fd; */
+    background-color: white;
 }
 
 .big-text {
