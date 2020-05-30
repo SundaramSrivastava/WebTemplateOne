@@ -79,7 +79,7 @@ button{
 
 .highlight {
     background-color: #06a7b1;
-    background-image: linear-gradient(to right, #06a7b1 0%, #262a3a 100%);
+    /* background-image: linear-gradient(to right, #06a7b1 0%, #262a3a 100%); */
 }
 
 
