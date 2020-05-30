@@ -83,6 +83,11 @@ button{
 }
 
 
+@media (prefers-color-scheme: dark){
+    .bg-fullPage{
+        background-color: red;
+    }
+}
 
 @media only screen and (max-width: 600px) {
     body{
